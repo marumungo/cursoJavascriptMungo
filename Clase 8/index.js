@@ -1,5 +1,4 @@
 // HOTELERIA
-
 function simulador () {
     alert ("Hola! Bienvenido a Las Cumbres Hotel");
     let numero = parseInt(prompt ("Para cuántas personas sería la habitación a reservar?"));
@@ -94,6 +93,11 @@ function simulador () {
 
         let operacionExitosa = `La habitación fue reservada con éxito para ${nombre} ${apellido}. Que la disfrutes!`;
         alert (operacionExitosa);
+
+        let contenedor = document.getElementById ("operacionExitosa");
+        let div = document.createElement ("div");
+        div.innerHTML = "<h2> OPERACIÓN EXITOSA! </h2>";
+        contenedor.appendChild (div);
     }
 
     if (numero === 2) {
@@ -121,6 +125,11 @@ function simulador () {
 
         let operacionExitosa = `La habitación fue reservada con éxito para 2 personas. Que la disfruten!`;
         alert (operacionExitosa);
+
+        let contenedor = document.getElementById ("operacionExitosa");
+        let div = document.createElement ("div");
+        div.innerHTML = "<h2> OPERACIÓN EXITOSA! </h2>";
+        contenedor.appendChild (div);
     }
 
     if (numero === 3) {
@@ -148,6 +157,11 @@ function simulador () {
 
         let operacionExitosa = `La habitación fue reservada con éxito para 3 personas. Que la disfruten!`;
         alert (operacionExitosa);
+
+        let contenedor = document.getElementById ("operacionExitosa");
+        let div = document.createElement ("div");
+        div.innerHTML = "<h2> OPERACIÓN EXITOSA! </h2>";
+        contenedor.appendChild (div);
     }
 
     if (numero === 4) {
@@ -175,5 +189,10 @@ function simulador () {
 
         let operacionExitosa = `La habitación fue reservada con éxito para 4 personas. Que la disfruten!`;
         alert (operacionExitosa);
+
+        let contenedor = document.getElementById ("operacionExitosa");
+        let div = document.createElement ("div");
+        div.innerHTML = "<h2> OPERACIÓN EXITOSA! </h2>";
+        contenedor.appendChild (div);
     }
 }
